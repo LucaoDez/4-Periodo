@@ -27,13 +27,13 @@ void Cubo_Atribuir(Cubo* c, float a){
 }
 
 float Cubo_Area(Cubo* c){
-    float area = 6 * (pow(2, c->aresta));
+    float area = 6 * pow(c->aresta, 2);
 
     return area;
 }
 
 float Cubo_Volume(Cubo* c){
-    float volume = pow(3, c->aresta);
+    float volume = pow(c->aresta, 3);
 
     return volume;
 }
