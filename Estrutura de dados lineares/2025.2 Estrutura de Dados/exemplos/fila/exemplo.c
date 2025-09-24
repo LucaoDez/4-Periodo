@@ -8,8 +8,8 @@ struct fila{
 };
 
 Fila* cria_fila(){
-    Fila fi* 
-    fi= (Fila*) malloc(sizeof(struct Fila));
+    Fila fi*;
+    fi = (Fila*) malloc(sizeof(struct Fila));
     if(fi != NULL){
         fi->inicio = 0;
         fi->final = 0;
