@@ -12,7 +12,7 @@
 */
 
 #include <stdio.h>
-#include "filaEstatica.h"
+#include "exemplo.h"
 
 int main(void){
     Fila *f = cria_Fila();
